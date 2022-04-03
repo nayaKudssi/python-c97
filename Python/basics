@@ -1,0 +1,27 @@
+PS C:\Users\nkuds\OneDrive\Desktop\Python> python
+Python 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name="naya"
+>>> print(name)
+naya
+>>> age=15 
+>>> print(age)
+15
+>>> colorsList=["red", "blue", "green", "yellow"]
+>>> print(colorsList)
+['red', 'blue', 'green', 'yellow']
+>>> colorsList[2]
+'green'
+>>> userage=int(input("Enter your age:"))
+Enter your age:26
+>>> print(userage)
+26
+>>> colorsList=["red", "blue", "green", "yellow"]
+>>> for color in colorsList:
+...     print(color)
+...
+red
+blue
+green
+yellow
+>>>
